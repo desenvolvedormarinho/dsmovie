@@ -1,10 +1,12 @@
-function Listing(){
+import Pagination from "components/Navbar/Pagination";
 
-    return(
-<       h1>Página de listagem</h1>       
+function Listing() {
+
+    return (
+        <Pagination />
     );
 
-    
+
 }
 
 export default Listing;
